@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "gui","core","synchronizer","sender","iszkur","iszkurlib"
+]
+

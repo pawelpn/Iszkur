@@ -1,0 +1,26 @@
+[package]
+name = "Iszkur"
+version = "0.1.0"
+edition = "2021"
+
+#build = "build.rs"
+
+[[bin]]
+name = "Iszkur"
+path = "src/bin/main.rs"
+#required-features = ["frobnicate"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+
+
+[features]
+# no features by default
+default = []
+
+# Add feature "foo" here, then you can use it. 
+# Our "foo" feature depends on nothing else.
+foo = []
+foo1 = []
